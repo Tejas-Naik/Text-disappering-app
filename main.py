@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 
-# ----------------- CONSTANTS / GLOBAL VARIABLES  -------------------- #
 TITLE_FONT = ('Aesthetic Violet', 40)
 LABEL_FONT = ('Manjari', 16)
 TEXT_FONT = ('Manjari', 12)
@@ -9,7 +8,6 @@ WAIT_TIME = 5000
 timer = None
 
 
-# -------------------------- FUNCTIONS ------------------------------- #
 def clean_text():
     text.delete('1.0', END)
     text.focus()
@@ -47,7 +45,7 @@ def save():
 # ----------------------------- UI SETUP ----------------------------- #
 
 window = Tk()
-window.title('⏲️ Quick Text ⏲️')
+window.title('⏲️ Quick Typing Text ⏲️')
 window.config(padx=50, pady=50)
 
 title = Label(text='Quick Text', font=TITLE_FONT)
